@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    width: 800px;
+    height: 600px;
+    background-color: dodgerblue;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.child {
+    width: 370px;
+    height: 560px;
+    background-color: rgb(25, 216, 25);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.user {
+    font-size: 40px;
+    color: white;
+}
+
+.score {
+    font-size: 20px;
+    color: white;
+    margin-top: 30px;
+}
+
+.hero_count {
+    font-size: 50px;
+    color: white;
+    margin-top: 80px;
+}
+
+.click {
+    width: 150px;
+    height: 150px;
+    background-color: aqua;
+    border-radius: 50%;
+    border: transparent;
+    margin-top: 120px;
+    font-size: 30px;
+    transition: .5s;
+}
+
+.click:hover {
+    transition: .5s;
+    opacity: .7;
+}
+
+.click2:hover {
+    transition: .5s;
+    opacity: .7;
+}
+
+
+.tuxtatish {
+    width: 900px;
+    height: 600px;
+    background: aqua;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 11;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+    border-radius: 30px;
+}
+
+.tuxtatish_text {
+    font-size: 48px;
+    color: #0000fd;
+}
