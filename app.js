@@ -22,10 +22,10 @@ click1.addEventListener("click", function () {
 
     if (parseInt(count1.textContent) >= 50) {
         tugatish.style.display = "flex";
-        tugatishText.textContent = "User 1 g'olib bo'ldi";
+        tugatishText.textContent = "User 1 g'olib bo'ldi 🥳🤑🥳";
     } else if (parseInt(count2.textContent) >= 50) {
         tugatish.style.display = "flex";
-        tugatishText.textContent = "User 2 g'olib bo'ldi";
+        tugatishText.textContent = "User 2 g'olib bo'ldi 🥳🤑🥳";
     } else {
         tugatish.style.display = "none";
     }
@@ -44,10 +44,10 @@ click2.addEventListener("click", function () {
 
     if (parseInt(count1.textContent) >= 50) {
         tugatish.style.display = "flex";
-        tugatishText.textContent = "User 1 g'olib bo'ldi";
+        tugatishText.textContent = "User 1 g'olib bo'ldi 🥳🤑🥳";
     } else if (parseInt(count2.textContent) >= 50) {
         tugatish.style.display = "flex";
-        tugatishText.textContent = "User 2 g'olib bo'ldi";
+        tugatishText.textContent = "User 2 g'olib bo'ldi 🥳🤑🥳";
     } else {
         tugatish.style.display = "none";
     }
